@@ -31,7 +31,7 @@ class Result {
     }//end of outer for loop
     
     
-        int max = 0;
+        int max = largeSum.get(0);
         for(int i =0; i<largeSum.size(); i++){
             if(largeSum.get(i)>max){
                 max = largeSum.get(i);
